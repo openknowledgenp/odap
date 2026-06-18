@@ -1,8 +1,8 @@
 /*Contact sectiom*/
 .content-header{
 
-  font-family: 'Oleo Script', cursive;
-  color:#fcc500;
+  font-family: 'Poppins', sans-serif;
+  color:#FCC203;
   font-size: 45px;
 }
 
@@ -22,9 +22,9 @@
   width: 100%;
   width: 100vw;
   height: 550px;
-  background: #3a6186; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #3a6186 , #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #1C2B3A; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #1C2B3A , #0F1F30); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #1C2B3A , #0F1F30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color : #fff;    
 }
 .contact-section{
@@ -69,7 +69,7 @@ textarea.form-control {
 .footer-1-3 {
 	padding-top: 40px;
 	padding-bottom: 10px;
-    background:#333;
+    background:#1C2B3A;
 }
 
 .footer-1-3 .brand-img {
@@ -96,7 +96,7 @@ textarea.form-control {
     color:#fff;
 }
 .footer-1-3 .footer-text  a{
-	color:#00a3ff;
+	color:#FCC203;
      text-align:left;
 }
 .footer-1-3 .footer-text  svg{
@@ -191,7 +191,7 @@ position: absolute;
 
 #header-2 .navbar-toggle:hover .icon-bar,#header-2 .navbar-toggle.pg-state-hover .icon-bar
 {
-    background-color: #3498DB;
+    background-color: #E86826;
 }#header-2 .navbar-fixed-top {
 background-color: #fff;
 border-color: #fff;
@@ -218,23 +218,23 @@ border-color: #fff;
 
 #header-2 .main-nav .navbar-nav > li a
 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 15px;
-    color: #666;
+    font-size: 14px;
+    color: #444;
     background: none;
 }
 
 #header-2 .main-nav .navbar-nav > li.active a
 {
-    color: #3498DB;
+    color: #E86826;
 }
 
 
 #header-2 .main-nav .navbar-nav > li a:hover,#header-2 .main-nav .navbar-nav > li a.pg-state-hover
 {
-    color: #3498DB;
+    color: #E86826;
 }
 
 #header-2 .main-nav .navbar-nav > li a:focus,#header-2 .main-nav .navbar-nav > li a.pg-state-focus
@@ -251,7 +251,7 @@ border-color: #fff;
     border: none;
     text-transform: none;
     min-width: 180px;
-    background: #3E606F;
+    background: #1C2B3A;
 }
 
 #header-2 .main-nav .nav .dropdown-menu a
@@ -265,7 +265,7 @@ border-color: #fff;
 
 #header-2 .main-nav .nav .dropdown-menu a:hover,#header-2 .main-nav .nav .dropdown-menu a.pg-state-hover
 {
-    background: #3498DB;
+    background: #E86826;
     color: #fff;
 }
 
@@ -302,7 +302,7 @@ border-color: #fff;
         border: none;
         text-transform: none;
         min-width: 180px;
-        background: #3E606F;
+        background: #1C2B3A;
     }
     #header-2 .main-nav .nav .dropdown-menu:before
     {
@@ -393,11 +393,11 @@ border-color: #fff;
 
 /*	PROMO BLOCK 3
 /*----------------------------------------------------*/.promo-3 {
-background: 
+background:
     linear-gradient(
-      rgba(0, 152, 255, 0.95), 
-        rgba(0, 152, 255, 0.65), 
-       rgba(0, 152, 255, 2)
+      rgba(28, 43, 58, 0.92),
+        rgba(15, 27, 39, 0.80),
+       rgba(28, 43, 58, 0.97)
     ),    url(https://np.okfn.org/files/2014/05/IMG_20140517_110039.jpg);
 
 	    -webkit-background-size: cover;
@@ -432,7 +432,7 @@ background:
 
 /*	CONTENT BLOCK 2-7
 /*----------------------------------------------------*/.content-2-7 {
-    background:#29A5DA;
+    background:#1C2B3A;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -444,7 +444,7 @@ background:
 }
 
 .content-2-7 .counter, .content-2-7 .counter-text {
-    font-family: 'Lato', Helvetica, Arial, sans-serif;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
     font-weight: 700;
     color: #fff;
 }
@@ -481,9 +481,9 @@ box-shadow: 0 2px 3px rgba(0, 0, 0, 0.34);
 
 .content-3-6 .icon:hover,.content-3-6 .icon.pg-state-hover {
     margin: 0 auto;
-    border: #00a8ff solid 3px;;
+    border: #FCC203 solid 2px;
     text-align: center;
-    color: #00a8ff;
+    color: #FCC203;
     font-size: 60px;
     height: 100px;
     width: 100px;
@@ -496,9 +496,9 @@ box-shadow: 0 2px 3px rgba(0, 0, 0, 0.34);
 }
 .content-3-6 .icon {
     margin: 0 auto;
-    border: #00a8ff solid 3px;;
+    border: #FCC203 solid 2px;
     text-align: center;
-    color: #00a8ff;
+    color: #FCC203;
     font-size: 60px;
     height: 100px;
     width: 100px;
